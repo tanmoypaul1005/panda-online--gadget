@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a2ee45cbd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>PANDA Gadget Shop</title>
+</head>
+<body>
+<!-- Header shart -->
+<div class="container">
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img
+        src="images/logo.png"
+        alt=""/></a>
+      <div class="d-flex">
+        <button type="button" class="btn btn-danger m-3">Sing up</button>
+        <button type="button" class="btn btn-success m-3 "><i class="fas fa-shopping-cart"></i>Cart</button>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- header end -->
+
+
+<!-- Banner start -->
+<div class="container" id="banner">
+    <div id="carouselExampleControls" class="carousel slide orange-bg " data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="row d-flex align-items-center">
+        <div class="col-md-7">
+        <h1>MackBook pro</h1> 
+        <p>The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. With up to 2.8x CPU performance. Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x faster machine learning. And up to 20 hours of battery life — the longest of any Mac ever. It’s our most popular pro notebook, taken to a whole new level.</p>
+        <h3>$1299</h3>
+        <button type="button" class="btn btn-dark">BUY NOW >></button>
+        </div>
+        <div class="col-md-5">
+        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        </div>
+
+
+        <div class="carousel-item">
+        <div class="row d-flex align-items-center">
+        <div class="col-md-7">
+        <h1>Samsung S21 ultra</h1>
+        <P>As you'll see in my Galaxy S21 Ultra review, there are some trade-offs, including the lack of a charger in the box. But overall, this is one of the best phones money can buy for those willing to pay a premium and one of the best Android phones overall.</P>
+        <h3>$1,199.99</h3>
+        <button type="button" class="btn btn-dark">BUY NOW >></button>
+        </div>
+        <div class="col-md-5">
+        <img src="images/banner-products/product-2.png" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        </div>
+        
+       
+        
+        <div class="carousel-item">
+        <div class="row d-flex align-items-center">
+        <div class="col-md-7">
+        <h1>  Iphone 12 pro max</h1>
+        <p>If you're a budding movie-maker, we'd say it's definitely worth looking at the 12 Pro Max – it's packing Dolby Vision recording at 4K and 60 frames per second, so if you're a content creator looking for a phone that can record high-quality footage, the 12 Pro Max can definitely do that</p>
+        <h3>$1,199</h3>
+        <button type="button" class="btn btn-dark">BUY NOW >></button> 
+        </div>
+        <div class="col-md-5">
+        <img src="images/banner-products/product-3.png" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        </div>     
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+   </div>
+  </div>
+<!-- Banner end -->
+
+
+
+
+<!-- CONTACT PAGE END -->
+
+<!-- Categories Start -->
+<div class="sidenav">
+  <a href="#about">About</a>
+
+  <a href="#contact">Contact</a>
+  <button class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+ 
+</div>
+
+
+<script>
+ 
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+  
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    } else {
+    dropdownContent.style.display = "block";
+    }
+    });
+  }
+  </script>
+<!-- Categories end -->
+
+
+  
+  
+
+  <!--  Card start -->
+  
+  <div class="cart"> 
+    <div class="card" style="width: 18rem;">
+    <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">$10</p>
+    
+    </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+    <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">$10</p>
+    
+    </div>
+    </div> 
+    
+    <div class="card" style="width: 18rem;">
+    <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">$10</p>
+    
+    </div>
+    </div>   
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">$10</p>
+      
+      </div>
+      </div>
+  
+  
+      <div class="card" style="width: 18rem;">
+      <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">$10</p>
+     
+      </div>
+      </div> 
+      
+      <div class="card" style="width: 18rem;">
+      <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">$10</p>
+      
+      </div>
+      </div> 
+      
+      
+      <div class="card" style="width: 18rem;">
+        <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">$10</p>
+        
+        </div>
+        </div>
+    
+    
+        <div class="card" style="width: 18rem;">
+        <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">$10</p>
+       
+        </div>
+        </div> 
+        
+        <div class="card" style="width: 18rem;">
+        <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">$10</p>
+       
+        </div>
+        </div> 
+        
+        
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">$10</p>
+         
+          </div>
+          </div>
+      
+      
+          <div class="card" style="width: 18rem;">
+          <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">$10</p>
+          <button  class="btn btn-danger mybutton"><i class="fas fa-cart-plus"></i>BUY NOW >></button>
+          </div>
+          </div> 
+          
+          <div class="card" style="width: 18rem;">
+          <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">$10</p>
+          
+          </div>
+          </div> 
+          
+          
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">$10</p>
+            
+            </div>
+            </div>
+        
+        
+            <div class="card" style="width: 18rem;">
+            <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">$10</p>
+            
+            </div>
+            </div> 
+            
+            <div class="card" style="width: 18rem;">
+            <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">$10</p>
+            
+            </div>
+            </div> 
+            
+            
+            <div class="card" style="width: 18rem;">
+              <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">$10</p>
+              
+              </div>
+              </div>
+          
+          
+              <div class="card" style="width: 18rem;">
+              <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">$10</p>
+              
+              </div>
+              </div> 
+              
+              <div class="card" style="width: 18rem;">
+              <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">$10</p>
+              
+              </div>
+              </div> 
+              
+              
+              <div class="card" style="width: 18rem;">
+                <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">$10</p>
+                
+                </div>
+                </div>
+            
+            
+                <div class="card" style="width: 18rem;">
+                <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">$10</p>
+               
+                </div>
+                </div> 
+                
+                <div class="card" style="width: 18rem;">
+                <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">$10</p>
+                <!-- <button  class="btn btn-danger mybutton"><i class="fas fa-cart-plus"></i>BUY NOW >></button> -->
+                </div>
+                </div>             
+              </div>
+   <!--  Card  end -->
+
+<!-- Footer start -->
+   <Footer class="body">
+    <div class="footer">
+        <div class="col-md-6"><img src="images/logo.png" width="140" height="45"></img>
+        </div>
+
+       
+        <div class="col-md-3 "> 
+        <ul> 
+                <p>About Online lood</p>
+                <p>Read Our Blog</p>
+                <p>Sing up to deliver</p>
+                
+                </ul></div>
+
+           <div class="col-md-3 ">     
+           <ul>
+                <p>Get Help</p>
+                <p>Read FAQs</p>
+                <p>View all cities</p>
+                <p>Restaurants near me</p>
+            </ul></div>
+            
+        </div> 
+        <div class="footer1">
+        <div><p>Copyright © Online Food</p></div>    
+        </div>   
+</footer>
+<!-- Footer end -->
+
+
+<!--  Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

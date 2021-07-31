@@ -1,0 +1,107 @@
+.container{
+  margin-bottom: 100px;
+  margin-left: 9rem;
+}
+
+/* Banner start */
+.orange-bg{
+background-color:rgba(133, 193, 233);  
+border-radius: 10px;
+padding: 30px;
+}
+
+.carousel-item{
+padding: 10px 20px;
+
+}
+
+.price{
+color:#FF136F;
+}
+/* Banner end */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height:100%;
+  width: 9rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  /* margin-top:11.5rem; */
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+
+
+/* ===== CONTACT =====*/
+
+
+/* Card start */
+.cart{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  margin-left: 9rem;
+  
+}
+i {
+  margin-right: 0.6rem;
+}
+.mybutton{
+  color:black;
+  font-style: bold;
+}
+/* Card end */
+
+
+.footer{
+  display: flex;
+  font-size: 13px;
+}
+.body{
+  background-color: black; 
+  height: 24rem;
+  padding-top: 5rem; 
+  padding-left:5rem;
+  color: white;
+  margin-left:7rem ;
+}
+.list{
+  display: flex; 
+ 
+}
+footer1 {
+  font-size: 12px;
+  /* padding-top: 40px; */
+  display:flex;
+ justify-content: center;
+ align-items:center;
+ margin-top: 5rem;
+}
