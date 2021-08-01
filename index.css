@@ -2,6 +2,9 @@
   margin-bottom: 130px;
   /* margin-left: 9rem; */
 }
+.animation{
+  text-align: center;
+}
 
 /* Banner start */
 .orange-bg{
@@ -38,7 +41,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
-  margin-top:50rem;
+  margin-top:52rem;
 }
 
 /* Style the sidenav links and the dropdown button */
