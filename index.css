@@ -36,12 +36,12 @@ body {
   width: 9rem;
   position: absolute;
   z-index: 1;
-  top: 0;
+  top: 52;
   left: 0;
   background-color: #111;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   padding-top: 20px;
-  margin-top:52rem;
+  /* margin-top:52rem; */
 }
 
 /* Style the sidenav links and the dropdown button */
