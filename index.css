@@ -24,6 +24,40 @@ color:#FF136F;
 /* Banner end */
 
 
+/* SmallCard start */
+.cat1,.cat2,.cat3,.cat4{
+  padding:1rem 1rem;
+  
+}
+.cat1{
+  background-color: orange;
+  border-radius: 10px;
+
+}
+.cat2{
+  background-color:orchid;
+  border-radius: 10px;
+}
+.cat3{
+  background-color:lightblue;
+  border-radius: 10px;
+}
+.cat4{
+  background-color: #48C9B0 ;
+  border-radius: 10px;
+}
+.categories{
+  color:white;
+}
+.categories img{
+  width: 10rem;
+  height: 9rem;
+}
+/* SmallCard end  */
+
+
+
+
 
 
 /* NAVBAR START */
