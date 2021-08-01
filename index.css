@@ -27,7 +27,7 @@ color:#FF136F;
 /* SmallCard start */
 .cat1,.cat2,.cat3,.cat4{
   padding:1rem 1rem;
-  
+  margin-bottom:1rem ;
 }
 .cat1{
   background-color: orange;
