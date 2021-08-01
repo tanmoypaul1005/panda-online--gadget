@@ -12,7 +12,6 @@ padding: 30px;
 
 .carousel-item{
 padding: 10px 20px;
-
 }
 
 .price{
@@ -20,6 +19,10 @@ color:#FF136F;
 }
 /* Banner end */
 
+
+
+
+/* NAVBAR START */
 body {
   font-family: "Lato", sans-serif;
 }
@@ -28,11 +31,11 @@ body {
 .sidenav {
   height:100%;
   width: 9rem;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  /* background-color: #111; */
   overflow-x: hidden;
   padding-top: 20px;
   /* margin-top:11.5rem; */
@@ -52,14 +55,12 @@ body {
   cursor: pointer;
   outline: none;
 }
-
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
-
-
+/* NAVBAR END */
 
 
 
@@ -68,7 +69,6 @@ body {
   display:flex;
   justify-content:space-around;
   flex-wrap:wrap;
-  margin-left: 9rem;
   
 }
 i {
@@ -101,11 +101,10 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   padding-top: 5rem; 
   padding-left:5rem;
   color: white;
-  margin-left:7rem ;
+  /* margin-left:7rem ; */
 }
 .list{
   display: flex; 
- 
 }
 footer1 {
   font-size: 12px;
@@ -121,7 +120,7 @@ footer1 {
 /* contact starts */
 #contact{
   padding: 2% 10%;
-  background: #5eaaa8;
+  background: #3C1874;
   margin-left: 9rem;
 }
 .form-group label{
