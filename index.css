@@ -32,14 +32,14 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-  height:143rem;
+  height:100%;
   width: 9rem;
   position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #111;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   padding-top: 20px;
   margin-top:52rem;
 }
