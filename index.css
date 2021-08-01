@@ -1,5 +1,5 @@
 .container{
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   /* margin-left: 9rem; */
 }
 
@@ -29,7 +29,7 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-  height:144.5rem;
+  height:143rem;
   width: 9rem;
   position: absolute;
   z-index: 1;
@@ -38,7 +38,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
-  margin-top:46rem;
+  margin-top:50rem;
 }
 
 /* Style the sidenav links and the dropdown button */
