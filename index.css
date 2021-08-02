@@ -167,3 +167,53 @@ footer1 {
 }
 /* contact ends */
 
+/**********************************/
+/*********** Feature CSS **********/
+/**********************************/
+.feature {
+  position: relative;
+  background-color: #818181;
+  margin-bottom:2rem;
+}
+
+.feature .feature-col {
+  margin-bottom: 30px;
+}
+
+.feature .feature-content {
+  position: relative;
+  height: 100%;
+  padding: 30px 2px;
+  text-align: center;
+  background: white;
+  margin: 1rem;
+  /* box-shadow: 5px 5px 10px black; */
+ border:2px solid white;
+}
+
+.feature .feature-content i {
+  color: #FF6F61;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.feature .feature-content h2 {
+  font-size: 18px;
+}
+
+.feature .feature-content p {
+  font-size: 15px;
+  margin: 0;
+}
+
+
+
+/*--------------------------------------- Columns -----------------------------------*/
+.fourth{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+
+
